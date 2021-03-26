@@ -13,6 +13,10 @@ import { FiltersComponent } from './component/shopping-cart/filters/filters.comp
 import { ProductListComponent } from './component/shopping-cart/product-list/product-list.component';
 import { CartItemComponent } from './component/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './component/shopping-cart/product-list/product-item/product-item.component';
+import { LoginComponent } from './component/login/login.component';
+import { RegisterComponent } from './component/register/register.component';
+import {PageNotFoundComponent} from './component/shared/page-not-found/page-not-found.component'
+import {FormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -25,13 +29,17 @@ import { ProductItemComponent } from './component/shopping-cart/product-list/pro
     FiltersComponent,
     ProductListComponent,
     CartItemComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    LoginComponent,
+    RegisterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

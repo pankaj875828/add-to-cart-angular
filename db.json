@@ -29,24 +29,25 @@
       "price": 99
     }
   ],
+  "wishlist": [],
   "cart": [
     {
       "product": {
-        "id": 1,
-        "name": "rubik's cube",
-        "description": "this is cube is very cool",
-        "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41kIgGXtS7L.jpg",
-        "price": 299
+        "id": 3,
+        "name": "walkers",
+        "description": "this is walker is very cool",
+        "imageUrl": "https://www.vm-images.net/res/s_256/e757ed29-e014-4612-bb79-6c28cd4dd2cb.jpg",
+        "price": 399
       },
       "id": 1
     },
     {
       "product": {
-        "id": 2,
-        "name": "toy",
-        "description": "this is toy is very cool",
-        "imageUrl": "https://junction.pk/wp-content/uploads/2020/10/toys-1.jpg",
-        "price": 199
+        "id": 3,
+        "name": "walkers",
+        "description": "this is walker is very cool",
+        "imageUrl": "https://www.vm-images.net/res/s_256/e757ed29-e014-4612-bb79-6c28cd4dd2cb.jpg",
+        "price": 399
       },
       "id": 2
     }
